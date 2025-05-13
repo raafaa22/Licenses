@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "old-fast-api-for-a-stock-option-app"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+license = "Proprietary"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.70.0"
+optionlab = "^0.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pip-audit = "^2.9.0"
+pip-licenses = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[virtualenvs]
+in-project = true
